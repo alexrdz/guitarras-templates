@@ -77,6 +77,101 @@ $home = $pages->get('/'); // homepage
     </section>
 
 
+    <section class="w-full pb-20 bg-gray-50">
+      <div class="flex">
+        <div class="flex-1 h-1.5 bg-green-400"></div>
+        <div class="flex-1 h-1.5 bg-red-500"></div>
+        <div class="flex-1 h-1.5 bg-yellow-400"></div>
+        <div class="flex-1 h-1.5 bg-indigo-500"></div>
+        <div class="flex-1 h-1.5 bg-pink-400"></div>
+      </div>
+
+        <div class="px-10 pt-20 mx-auto max-w-7xl">
+            <div class="px-10 mb-8 space-y-5 lg:px-0 lg:text-center lg:mb-16">
+                <h2 class="text-4xl font-bold sm:text-5xl">Experience the sounds of Mexico in Des Moines</h2>
+                <p class="text-lg text-gray-600 w-ful sm:text-xl">Enjoy the sounds of mariachi, trios, and boleros with Des Moines' own Guitarras ATM.</p>
+            </div>
+            <div class="grid overflow-hidden lg:rounded-xl">
+                <div class="grid items-center lg:grid-cols-2">
+                    <div class="flex flex-col items-start justify-center h-full py-16 pl-16 pr-16 space-y-4 bg-white lg:pr-20 lg:py-0">
+                        <h3 class="text-2xl font-semibold sm:text-4xl">Original</h3>
+                        <p class="text-lg text-gray-600">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam nam iste tempore voluptate quia possimus? Debitis amet ullam ex. Libero, ea labore. Tempore hic soluta obcaecati sit ipsum laudantium quae!
+                        </p>
+                    </div>
+                    <div class="overflow-hidden bg-gray-100 h-96">
+                      <iframe class="w-full h-92" src="https://www.youtube.com/embed/H5WJrgVA5MQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!-- <img src="https://i.ytimg.com/vi/Tz038FlXX-k/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDrYniOkKEJ1F4ofs4rrEIaQV8dAg" class="object-cover w-full h-full" alt=""> -->
+                    </div>
+                </div>
+
+                <div class="grid items-center lg:grid-cols-2">
+                    <div class="order-last overflow-hidden bg-gray-100 h-96 lg:order-first">
+                      <iframe class="w-full h-92" src="https://www.youtube.com/embed/8PHZLUk5hlM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!-- <img src="https://i.ytimg.com/vi/DtYD-rQvsGA/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDgPN4ReQfWy2iYxhmFvdfDodz-ow" class="object-cover w-full h-full" alt=""> -->
+                    </div>
+                    <div class="flex flex-col items-start justify-center h-full py-16 pl-16 pr-16 space-y-4 bg-white lg:pr-20 lg:py-0">
+                        <h3 class="text-2xl font-semibold sm:text-4xl">Traditional</h3>
+                        <p class="text-lg text-left text-gray-600">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam nam iste tempore voluptate quia possimus? Debitis amet ullam ex. Libero, ea labore. Tempore hic soluta obcaecati sit ipsum laudantium quae!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="grid items-center lg:grid-cols-2">
+                    <div class="flex flex-col items-start justify-center h-full py-16 pl-16 pr-16 space-y-4 bg-white lg:pr-20 lg:py-0">
+                        <h3 class="text-2xl font-semibold sm:text-4xl">Classic</h3>
+                        <p class="text-lg text-gray-600">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, magnam eveniet. Qui, iste porro similique ex rerum magni omnis aspernatur est non nesciunt nemo quo ducimus! Tenetur recusandae quas commodi?
+                        </p>
+                    </div>
+                    <div class="bg-gray-100 h-96">
+                      <iframe class="w-full h-92" src="https://www.youtube.com/embed/YgfZ1mXGiFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!-- <img src="https://i.ytimg.com/vi/JC03Jh9JZZU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC3AZxewJIZzFkxbiS2JFEi68Qbgg" class="object-cover w-full h-full" alt=""> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-green-800 relative">
+      <div class="bg-cover absolute inset-0 z-0 opacity-10 bg-fixed" style="background-image: url('https://images.unsplash.com/photo-1501059104508-e158516511cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2373&q=80')"></div>
+      <div class="relative z-10">
+        <div class="flex">
+          <div class="flex-1 h-1.5 bg-green-400"></div>
+          <div class="flex-1 h-1.5 bg-red-500"></div>
+          <div class="flex-1 h-1.5 bg-yellow-400"></div>
+          <div class="flex-1 h-1.5 bg-indigo-500"></div>
+          <div class="flex-1 h-1.5 bg-pink-400"></div>
+        </div>
+  
+        <div class="pt-16 pb-16 pl-4 pr-4 mx-auto ml-auto mr-auto bg-top bg-cover max-w-4xl md:px-24 lg:px-12 lg:py-20">
+          <div class="flex">
+            <div class="border-white border-8 inline-block shadow-2xl">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Tz038FlXX-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+  
+  
+          
+          <div class="flex mt-16">
+            <div class="ml-auto border-white border-8 inline-block shadow-2xl">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/7cOS97NAm_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          
+          
+          <div class="flex mt-16">
+            <div class="border-white border-8 inline-block shadow-2xl">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/md1mK_KiOB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
     <section class="bg-white">
       <div class="flex">
         <div class="flex-1 h-1.5 bg-green-400"></div>
@@ -198,12 +293,7 @@ $home = $pages->get('/'); // homepage
                                   <input class="py-2.5 px-4 mb-4 w-full bg-gray-50 border focus:ring-2 focus:ring-opacity-90 focus:ring-indigo-500 border-gray-100 rounded focus:outline-none" type="email" placeholder="Email address">
                                   <button class="w-full py-3 mb-4 font-bold text-white rounded hover:bg-indigo-500 bg-green-600">Send</button>
                               </form>
-                              <!-- <p class="text-xs text-gray-400">
-                                  <span>Already have an account?</span>
-                                  <a class="text-indigo-500" href="#">Sign In</a>
-                              </p> -->
                           </div>
-                          <!-- <div class="py-2 text-xs font-medium text-gray-300 border-t border-gray-100 bg-gray-50">By signing up, you agree to our <a href="#_" class="text-indigo-400 underline">Terms of Service</a></div> -->
                       </div>
                   </div>
               </div>
@@ -222,6 +312,7 @@ $home = $pages->get('/'); // homepage
             </div>
             <div class="flex flex-col justify-between mt-5 mb-5 text-center sm:mb-0 sm:mt-12 sm:flex-row">
                 <ul class="flex flex-row justify-center pb-3 -ml-4 -mr-4 text-sm font-bold">
+                    <li> <a href="/" class="px-2 text-gray-500 hover:text-gray-600">Home</a> </li>
                     <li> <a href="#_" class="px-2 text-gray-500 hover:text-gray-600">Contact</a> </li>
                     <li> <a href="#_" class="px-2 text-gray-500 hover:text-gray-600">About US</a> </li>
                     <li> <a href="#_" class="px-2 text-gray-500 hover:text-gray-600">FAQ's</a> </li>
