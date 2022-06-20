@@ -3,8 +3,15 @@
 @tailwind utilities;
 
 * {
-  font-family: "Montserrat"
+  font-family: "Montserrat";
 }
 .h-92 {
   height: 24rem;
+}
+
+.video-section-content h3 {
+  @apply text-2xl font-semibold sm:text-4xl;
+}
+.video-section-content p {
+  @apply text-lg text-gray-600;
 }
