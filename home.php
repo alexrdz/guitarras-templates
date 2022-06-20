@@ -42,7 +42,7 @@ $home = $pages->get('/'); // homepage
       <div class="relative z-30 flex flex-col px-10 pt-20 pb-32 mx-auto md:flex-row sm:pt-24 sm:pb-32 md:pt-32 md:pb-40 max-w-7xl">
           <div class="flex flex-col items-start justify-center w-full space-y-8 md:w-1/2 sm:pr-8 xl:pr-20">
               <h1 class="text-5xl font-bold text-white lg:text-6xl xl:text-7xl"> <?=$home->title; ?> </h1>
-              <p class="text-base text-blue-200 lg:text-xl"> <?=$home->body;?></p>
+              <div class="text-base text-blue-200 lg:text-xl"> <?=$home->body;?></div>
           </div>
           <div class="relative flex items-center justify-center w-full mt-10 md:mt-0 md:w-1/2 border-white border-8">
             <iframe width="560" height="315" src="<?=$home->youtube_url?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
