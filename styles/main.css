@@ -731,6 +731,14 @@ video {
   margin-top: 4rem;
 }
 
+.-ml-24 {
+  margin-left: -6rem;
+}
+
+.ml-24 {
+  margin-left: 6rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -1623,6 +1631,34 @@ video {
 
   .md\:mb-16 {
     margin-bottom: 4rem;
+  }
+
+  .md\:mt-16 {
+    margin-top: 4rem;
+  }
+
+  .md\:ml-auto {
+    margin-left: auto;
+  }
+
+  .md\:-ml-24 {
+    margin-left: -6rem;
+  }
+
+  .md\:ml-24 {
+    margin-left: 6rem;
+  }
+
+  .md\:ml-48 {
+    margin-left: 12rem;
+  }
+
+  .md\:-mr-24 {
+    margin-right: -6rem;
+  }
+
+  .md\:-mr-32 {
+    margin-right: -8rem;
   }
 
   .md\:block {

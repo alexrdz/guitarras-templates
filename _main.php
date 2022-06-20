@@ -147,23 +147,23 @@ $home = $pages->get('/'); // homepage
   
         <div class="pt-16 pb-16 pl-4 pr-4 mx-auto ml-auto mr-auto bg-top bg-cover max-w-4xl md:px-24 lg:px-12 lg:py-20">
           <div class="flex">
-            <div class="border-white border-8 inline-block shadow-2xl">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/Tz038FlXX-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="border-white border-8 inline-block shadow-2xl w-full">
+              <iframe class="w-full h-92" src="https://www.youtube.com/embed/Tz038FlXX-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
   
   
           
           <div class="flex mt-16">
-            <div class="ml-auto border-white border-8 inline-block shadow-2xl">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/7cOS97NAm_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="border-white border-8 inline-block shadow-2xl w-full">
+              <iframe class="w-full h-92" src="https://www.youtube.com/embed/7cOS97NAm_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
           
           
           <div class="flex mt-16">
-            <div class="border-white border-8 inline-block shadow-2xl">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/md1mK_KiOB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="border-white border-8 inline-block shadow-2xl w-full">
+              <iframe class="w-full h-92" src="https://www.youtube.com/embed/md1mK_KiOB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
         </div>
